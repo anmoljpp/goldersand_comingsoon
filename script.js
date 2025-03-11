@@ -5,8 +5,8 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 const particlesArray = [];
-const numberOfWhiteParticles = 5000; // Reduced for performance
-const numberOfYellowParticles = 5000; // Additional yellow particles
+const numberOfWhiteParticles = 2000; // Reduced for performance
+const numberOfYellowParticles = 2000; // Additional yellow particles
 const friction = 0.95; // Simulate air resistance (no gravity)
 const returnSpeed = 0.05; // Speed at which particles return to their original position
 
